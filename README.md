@@ -1,5 +1,5 @@
 # TURING TAKE-HOME ASSESSMENT
-![node](https://badgen.net/badge/node/v20.0.0+/green) ![npm](https://badgen.net/badge/npm/v10.0.0+/red) ![react](https://badgen.net/badge/react/v18.3.1/cyan) ![sass](https://badgen.net/badge/sass/v1.77.8/pink)
+![node](https://badgen.net/badge/node/v20.0.0+/green) ![npm](https://badgen.net/badge/npm/v10.0.0+/red) ![react](https://badgen.net/badge/react/v18.0/cyan) ![sass](https://badgen.net/badge/sass/v1.86.3/pink)
 
 ## Prerequisites
 
