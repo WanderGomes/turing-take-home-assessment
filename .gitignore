@@ -11,3 +11,6 @@ dist
 *.njsproj
 *.sln
 *.sw?
+
+# Parcel cache
+./.parcel-cache
