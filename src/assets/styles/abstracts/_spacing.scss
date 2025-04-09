@@ -1,3 +1,11 @@
-:root {
+$base-spacing: 8;
+$max-spacing: 50;
 
+:root {
+    --default-space: #{$base-spacing}px;
+    --half-space: calc(var(--default-space) / 2);
+
+    @for $i from 1 through $max-spacing {
+        --space-#{$i}x: calc(#{$i} * #{$base-spacing}px);
+    }
 }

@@ -1,0 +1,63 @@
+$max-spacing: 50;
+
+@for $i from 1 through $max-spacing {
+    .p-#{$i}x {
+        padding: var(--space-#{$i}x);
+    }
+
+    .pt-#{$i}x {
+        padding-top: var(--space-#{$i}x);
+    }
+
+    .pr-#{$i}x {
+        padding-right: var(--space-#{$i}x);
+    }
+
+    .pb-#{$i}x {
+        padding-bottom: var(--space-#{$i}x);
+    }
+
+    .pl-#{$i}x {
+        padding-left: var(--space-#{$i}x);
+    }
+
+    .px-#{$i}x {
+        padding-left: var(--space-#{$i}x);
+        padding-right: var(--space-#{$i}x);
+    }
+
+    .py-#{$i}x {
+        padding-top: var(--space-#{$i}x);
+        padding-bottom: var(--space-#{$i}x);
+    }
+
+    .m-#{$i}x {
+        margin: var(--space-#{$i}x);
+    }
+
+    .mt-#{$i}x {
+        margin-top: var(--space-#{$i}x);
+    }
+
+    .mr-#{$i}x {
+        margin-right: var(--space-#{$i}x);
+    }
+
+    .mb-#{$i}x {
+        margin-bottom: var(--space-#{$i}x);
+    }
+
+    .ml-#{$i}x {
+        margin-left: var(--space-#{$i}x);
+    }
+
+    .mx-#{$i}x {
+        margin-left: var(--space-#{$i}x);
+        margin-right: var(--space-#{$i}x);
+    }
+
+    .my-#{$i}x {
+        margin-top: var(--space-#{$i}x);
+        margin-bottom: var(--space-#{$i}x);
+    }
+}

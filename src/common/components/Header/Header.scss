@@ -1,0 +1,16 @@
+header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    color: var(--header-color);
+    background: var(--header-bg);
+    padding: var(--space-2x) var(--space-3x);
+
+    img {
+
+        & + strong {
+            margin-left: var(--space-3x);
+        }
+    }
+}

@@ -1,0 +1,21 @@
+footer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    color: var(--footer-color);
+    background: var(--footer-bg);
+    padding: var(--default-space);
+
+    a {
+
+        &,
+        &:visited,
+        &:hover,
+        &:active,
+        &:focus, {
+            color: var(--footer-link-color);
+        }
+    }
+}

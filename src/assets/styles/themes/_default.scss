@@ -1,3 +1,22 @@
 :root {
+    --main-background: var(--light);
+    --text-color: var(--dark);
 
+    --header-bg: var(--dark-gray);
+    --header-color: var(--light);
+
+    --footer-bg: var(--dark-gray);
+    --footer-color: var(--light);
+    --footer-link-color: var(--light);
+
+    --timeline-bg: var(--light-blue);
+    --timeline-border-color: var(--dark);
+    --timeline-item-bg: var(--light-blue-2);
+
+    --button-color: var(--text-color);
+    --button-light-text-color: var(--light);
+    --button-background: var(--blue);
+    --button-background-hover: var(--blue-2);
+    --button-background-active: var(--blue-3);
+    --button-border: var(--dark);
 }
