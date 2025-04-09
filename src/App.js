@@ -1,6 +1,10 @@
-import './App.scss';
 import { timelineService } from './common/services/timeline';
 import { useEffect, useState } from 'react';
+import Header from './common/components/Header/Header';
+import Timeline from './common/components/Timeline/Timeline';
+import Footer from './common/components/Footer/Footer';
+
+import './App.scss';
 
 const App = () => {
 
@@ -20,10 +24,13 @@ const App = () => {
     }, []);
 
     return (
-        <div>
-            <h2>Good luck with your assignment! {"\u2728"}</h2>
-            <h3>{timelineItems.length} timeline items to render</h3>
-        </div>
+        <>
+            <Header />
+            <main>
+                <Timeline />
+            </main>
+            <Footer />
+        </>
     );
 };
 
