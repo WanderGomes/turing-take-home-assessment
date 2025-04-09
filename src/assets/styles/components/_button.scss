@@ -1,0 +1,45 @@
+.turing-button {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: var(--font-size-base-scale);
+    font-weight: var(--font-weight-semi-bold);
+    height: var(--space-5x);
+    padding: 0 var(--space-3x);
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    color: var(--button-color);
+    background-color: var(--button-background);
+    border: solid 1px var(--button-background);
+    border-radius: var(--half-space);
+
+    &--secondary {
+        background-color: transparent;
+        border: solid 1px var(--button-border);
+    }
+
+    &:focus-visible {
+        outline: 2px solid var(--button-border);
+    }
+
+    &:disabled {
+        cursor: not-allowed !important;
+        opacity: 0.45;
+    }
+
+    &:hover:not([disabled]) {
+        color: var(--button-light-text-color);
+        background-color: var(--button-background-hover);
+        border: solid 1px var(--button-background-hover);
+    }
+
+    &:active:not([disabled]),
+    &--active{
+        color: var(--button-light-text-color);
+        background-color: var(--button-background-active);
+        border: solid 1px var(--button-background-active);
+    }
+}
